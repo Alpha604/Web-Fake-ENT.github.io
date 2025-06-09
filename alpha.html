@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="C:\Users\romeo\Downloads\ALPHA__1_-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="alpha.css">
+    <script src="connextioneleve.js" defer></script>
+    <script src="messagerieeleve.js" defer></script>
+    <script src="messagerie.js" defer></script>
+    <button class="de-connextion-alpha" id="de-connextion-alpha">❌</button>
+  </head>
+  <body>
+    <section class="evoyer-un-message">
+      <p class="intro-message" style="font-family: 'Segoe UI', 'Roboto', sans-serif;">📤 Evoyer un message :</p>
+      <section class="evoyer-un-message-b">
+        <input class="Votre nom" id="expediteur" placeholder="Votre nom" maxlength="25">
+        <input class="Nom du destinataire" id="destinataire" placeholder="Nom du destinataire" maxlength="25">
+        <select class="roleUtilisateur" id="roleUtilisateur">
+          <option value="ADM">ADM</option>
+          <option value="ELEVE">ELEVE</option>
+          <option value="PARENT">PARENT</option>
+        </select>
+        <textarea class="champ-de-texte" id="contenu" placeholder="Votre message" maxlength="1000"></textarea>
+        <button class="envoyerMessage" onclick="envoyerMessage()">Envoyer</button>
+      </section>
+    </section>
+    <section class="liste-des-messages">
+      <p class="intro-message">📥 Boite de reception :</p>
+      <style>
+      .message { border: 1px solid #ccc; padding: 10px; margin: 10px 0; border-radius: 5px; }
+      .recu { background-color: #e0e0ff; }
+      .envoye { background-color: #e0ffe0; }
+      </style>
+      <input type="text" class="Votre nom" id="utilisateur" placeholder="Votre nom" maxlength="25">
+      <input type="search" class="recherche-message" id="recherche-message" placeholder="Recherche..." maxlength="25">
+      <div id="reception"></div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,222 @@
+html{
+  background-color: rgb(242,242,242);
+  height: 1000px;
+}
+body{
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255,255,255);
+  border-radius: 10px;
+  height: 500px;
+  width: 1050px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+footer{
+  margin-top: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255,255,255);
+  border-radius: 10px;
+  height: 200px;
+  width: 1050px;
+  margin-bottom: 300px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.titlehead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partenaires{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text0{
+  margin-left: 25px;
+}
+.texte1{
+  margin-left: 25px;
+}
+.bouton-image1{
+  position: relative;
+  width: 45px;
+  height: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-top: 17px;
+}
+.bouton-image2{
+  position: relative;
+  width: 45px;
+  height: 45px;
+  padding-left: 35px;
+  padding-right: 30px;
+}
+.bouton-image3{
+  position: relative;
+  width: 45px;
+  height: 45px;
+  padding-left: 35px;
+  padding-right: 30px;
+}
+.eleve{
+  transition: all 1s;
+  background-color: rgb(67,107,168);
+  margin-right: 20px;
+  height: 100px;
+  width: 125px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.parent{
+  transition: all 1s;
+  margin-right: 20px;
+  background-color: rgb(67,107,168);
+  height: 100px;
+  width: 125px;
+  border-radius: 5px; 
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.personnel{
+  transition: all 1s;
+  font-size: 15px;
+  background-color: rgb(67,107,168);
+  height: 100px;
+  width: 125px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.bouton1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eleve:hover{
+  transition: all 0.9s;
+  background-color: rgb(15,68,150);
+  border-radius: 10px;
+  height: 100px;
+}
+.parent:hover{
+  cursor: not-allowed;
+  transition: all 0.9s;
+  background-color: rgb(15,68,150);
+  border-radius: 10px;
+  height: 100px;
+}
+.personnel:hover{
+  transition: all 0.9s;
+  background-color: rgb(15,68,150);
+  border-radius: 10px;
+  height: 100px;
+}
+.bienvenue{
+  margin-left: 25px;
+}
+.infos{
+  display: flex;
+  justify-content: center;
+}
+.ID{
+  transition: all 1s;
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+}
+.ID:hover{
+  transition: all 1.6s;
+  border-radius: 15px;
+  background-color: #B5D7E8;
+}
+.MDP{
+  transition: all 1s;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+}
+.MDP:hover{
+  transition: all 1.6s;
+  border-radius: 15px;
+  background-color: #B5D7E8;
+}
+.CDS{
+  transition: all 1s;
+  margin-right: 20px;
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+}
+.CDS:hover{
+  transition: all 1.6s;
+  border-radius: 15px;
+  background-color: #B5D7E8;
+}
+.connecter{
+  transition: all 1s;
+  border-radius: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.connecter:hover{
+  transition: all 1.3s;
+  border-radius: 15px;
+  background-color: #129ADC;
+}
+.certif:hover{
+  transition: all 0.9s;
+  background-color: #81C784;
+  cursor: pointer;
+}
+.messageErreur{
+  margin-left: 25px;
+}
+.bug{
+  transition: all 1s;
+  margin-left: 25px;
+}
+.bug:hover{
+  transition: all 1s;
+  background-color: #B5D7E8;
+}
+.admaccess,
+.parentaccess,
+.eleveaccess{
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  border-radius: 5px;
+  cursor: not-allowed;
+  gap: 10px;
+}
+.admaccess,
+.parentaccess,
+.eleveaccess:hover{
+  cursor: not-allowed;
+}
+.contact{
+  transition: all 1s;
+  margin-left: 25px;
+}
+.contact:hover{
+  transition: all 1s;
+  background-color: #B5D7E8;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.github{
+    cursor: pointer;
+    height: 35px;
+    width: 62.23px;
+}

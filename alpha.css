@@ -1,0 +1,105 @@
+.evoyer-un-message{
+    transition: all 2s;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    width: flex;
+    height: 360px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 0px #656565;
+}
+.evoyer-un-message:hover{
+    transition: all 2s;
+}
+textarea {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;   /* largeur max */
+  min-width: 985px;
+  max-height: 125px;  /* hauteur fixe ou minimale */
+  min-height: 125px;
+  height: 125px;
+  width: 1000px;
+  resize: vertical;   /* permet juste d'agrandir en hauteur */
+  resize: horizontal;
+}
+.Votre.nom,
+.Nom.du.destinataire,
+.champ-de-texte,
+.roleUtilisateur {
+    width: 100%;
+    max-width: 450px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
+}
+
+/* Focus visuel */
+.Votre.nom:focus,
+.Nom.du.destinataire:focus,
+.champ-de-texte:focus,
+.roleUtilisateur:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* Bouton envoyer */
+.sup-message{
+    background-color: #4f46e5;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.envoyerMessage {
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.envoyerMessage:hover {
+  background-color: #4338ca;
+  transform: translateY(-1px);
+}
+.envoyerMessage:active {
+  transform: translateY(1px);
+  background-color: #3730a3;
+}
+.intro-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.liste-des-messages{
+    transition: all 2s;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    width: flex;
+    height: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 0px #656565;
+}
+.liste-des-messages:hover{
+    transition: all 2s;
+}

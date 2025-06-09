@@ -1,0 +1,14 @@
+
+.er-ligne {
+    display: flex; /* Active le modèle de boîte flexible */
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.listedestaches,
+.listedescomptes {
+    margin: 5px; /* Ajoute un peu d'espace autour des éléments */
+}
+.liste-des-messages{
+    font-family: 'Lato', sans-serif;
+}

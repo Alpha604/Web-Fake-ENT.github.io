@@ -1,0 +1,329 @@
+html{
+    background-color: rgb(242, 242, 242);
+    height: auto;
+    width: auto;
+    transition: opacity 1s ease-in-out;
+}
+.section-de{
+    transition: all 1s;
+    background-color: rgb(255, 249, 233);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+body{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.liste-des-notifications{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.liste-des-notifications-open{
+    transition: all 1s;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0px 0px 5px 0px #656565;
+}
+.liste-des-notifications-open:hover{
+    transition: all 2s;
+    background-color: #b7b5b5c4;
+}
+.titre{
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+}
+.de-connextion-adm{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.infos-adm{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+.infos-adm:active{
+    cursor: pointer;
+}
+.infos-site{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    cursor: help;
+}
+.Notifications{
+    height: 50px;
+    width: 50px;
+}
+.Notifications:hover{
+    cursor: pointer;
+}
+.notif-1{
+    margin-left: 10px;
+}
+.notif-2{
+    margin-left: 10px;
+}
+.fermer-liste{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.fermer-liste-2{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.suprimer-tout{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+.suprimer-tout:hover{
+    cursor: pointer;
+}
+.liste-des-alertes{
+    transition: all 1s;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0px 0px 5px 0px #656565;
+}
+.liste-des-alertes:hover{
+    transition: all 2s;
+    background-color: #b7b5b5c4;
+}
+.infos-site-text{
+    transition: all 1s;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0px 0px 5px 0px #656565;
+}
+.infos-site-text:hover{
+    transition: all 2s;
+    background-color: #b7b5b5c4;
+}
+.intro-liste-des-alertes{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.alertes-1 {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.alertes-2{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.intro-infos-site-texte{
+    margin-left: 10px;
+}
+.Infos-importantes{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listedestaches,
+.listedescomptes{
+    font-family: 'Lato', sans-serif;
+    transition: all 2s;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    width: 600px;
+    height: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 0px #656565;
+}
+.listedestaches:hover,
+.listedescomptes:hover{
+    font-family: 'Lato', sans-serif;
+    transition: all 2s;
+    box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.08),
+        0 4px 12px rgba(153, 105, 255, 0.2),
+        0 8px 24px rgba(102, 51, 255, 0.1);
+    height: flex;
+}
+.evoyer-un-message{
+    transition: all 2s;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    width: flex;
+    height: 360px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 0px #656565;
+}
+.evoyer-un-message:hover{
+    transition: all 2s;
+}
+textarea {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;   /* largeur max */
+  min-width: 985px;
+  max-height: 125px;  /* hauteur fixe ou minimale */
+  min-height: 125px;
+  height: 125px;
+  width: 1000px;
+  resize: vertical;   /* permet juste d'agrandir en hauteur */
+  resize: horizontal;
+}
+.Votre.nom,
+.Nom.du.destinataire,
+.champ-de-texte,
+.roleUtilisateur,
+.recherche-message {
+    width: 100%;
+    max-width: 450px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
+}
+
+/* Focus visuel */
+.Votre.nom:focus,
+.Nom.du.destinataire:focus,
+.champ-de-texte:focus,
+.roleUtilisateur:focus,
+.recherche-message:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* Bouton envoyer */
+.sup-message{
+    background-color: #4f46e5;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.envoyerMessage {
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.envoyerMessage:hover {
+  background-color: #4338ca;
+  transform: translateY(-1px);
+}
+.envoyerMessage:active {
+  transform: translateY(1px);
+  background-color: #3730a3;
+}
+.intro-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.liste-des-messages{
+    transition: all 2s;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    width: flex;
+    height: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 0px #656565;
+}
+.liste-des-messages:hover{
+    transition: all 2s;
+}
+.li2{
+    background-color: rgb(183, 182, 182);
+    border-radius: 5px;
+    width: flex;
+    cursor: not-allowed;
+}
+.li3{
+    transition: all 0.5s;
+    cursor: not-allowed;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: flex;
+}
+.li3:hover{
+    transition: all 1s;
+    cursor: not-allowed;
+    background-color: rgb(183, 182, 182);
+    border-radius: 5px;
+    width: flex;
+}
+footer{
+    transition: all 1s;
+    background-color: rgb(45, 207, 252);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+footer:hover{
+    transition: all 1s;
+    background-color: rgb(131, 232, 255); 
+}
+.alpha-logo{
+    height: 50px;
+    width: 50px;
+}
+.copyright{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.github{
+    cursor: pointer;
+    height: 35px;
+    width: 62.23px;
+}

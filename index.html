@@ -1,0 +1,94 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="C:\Users\romeo\Downloads\ALPHA__1_-removebg-preview.png" type="image/png">
+    <title>Connexion à l'ENT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="connextioneleve.js" defer></script>
+    <script src="connextionparent.js" defer></script>
+    <script src="connextionadm.js" defer></script>
+    <script src="script.js"></script>
+    <h1 class="titlehead">Portail de connexion à l'ENT (Alpha)</h1>
+  </head>
+  <body>
+    <section class="1p">
+      <p class="text0">Veuillez renseigner quelques informations pour accéder à votre page d'authentification</p>
+      <p class="texte1">1. Sélectionner votre profil :</p>
+      <div class="bouton1">
+        <button class="eleve" id="eleve">Élève
+          <img src="https://connexion.enthdf.fr/images-connexion/etudiant_01.svg" alt="Image" class="bouton-image1" />
+        </button>
+        <button class="parent" id="parent">Responsable d'élève
+          <img src="https://connexion.enthdf.fr/images-connexion/parent_01.svg" alt="Image" class="bouton-image2" />
+        </button>
+        <button class="personnel" id="personnel">Administrateur
+          <img src="https://connexion.enthdf.fr/images-connexion/prof_01.svg" alt="Image" class="bouton-image3" />
+        </button>
+      </div>
+      <div id="eleve-content" class="eleve-from" style="display: none; margin-top: 20px;">
+        <p class="bienvenue">2. Entrer les infos de votre compte élève :</p>
+        <div class="infos">
+          <input type="text" class="ID" id="IDeleve" placeholder="Identifiant">
+          <input type="password" class="MDP" id="MDPeleve" placeholder="Mot de passe">
+          <button class="connecter" id="coeleve">Se connecter</button>
+        </div>
+
+        <!-- 🔥 Message d'erreur ici 🔥 -->
+        <p id="messageErreur" class="messageErreur" style="color: red; display: none; margin-top: 10px;"></p>
+        
+        <br><br>
+        <a href="mettre lien ICI" class="bug">Problème de Mot De Passe ?</a><br>
+        <a href="mettre lien ICI" class="contact">Contacter l'assistance ENT Alpha</a>
+      </div>
+      <div id="parent-content" class="parent-from" style="display: none; margin-top: 20px;">
+        <p class="bienvenue">2. Entrer les infos de votre compte parent :</p>
+        <div class="infos">
+          <input type="text" class="ID" id="IDparent" placeholder="Identifiant">
+          <input type="password" class="MDP" id="MDPparent" placeholder="Mot de passe">
+          <button class="connecter" id="coparent">Se connecter</button>
+        </div>
+        
+        <!-- 🔥 Message d'erreur ici 🔥 -->
+        <p id="messageErreur-parent" class="messageErreur" style="color: red; display: none; margin-top: 10px;"></p>
+        
+        <br><br>
+        <a href="mettre lien ICI" class="bug">Problème de Mot De Passe ?</a>
+        <br>
+        <a href="mettre lien ICI" class="contact">Contacter l'assistance ENT Alpha</a>
+      </div>
+      <div id="personnel-content" class="personnel-from" style="display: none; margin-top: 20px;">
+        <p class="bienvenue">2. Entrer les infos d'Administrateur privée :</p>
+        <div class="infos">
+          <input type="text" id="IDadm" class="ID" placeholder="ID ADM" maxlength="4">
+          <input type="password" id="MDPadm" class="MDP" placeholder="Mot de passe">
+          <input type="number" class="CDS" placeholder="CDS Alpha à 4 chiffres" step="1" id="numberInput" oninput="limitDigits(this)">
+          <button id="connecter" class="connecter">Se connecter</button>
+        </div>
+        
+        <!-- 🔥 Message d'erreur ici 🔥 -->
+        <p id="messageErreur-adm" class="messageErreur" style="color: red; display: none; margin-top: 10px;"></p>
+        
+        <br><br>
+        <a href="mettre lien ICI" class="bug">Problème de Mot De Passe ?</a>
+        <br>
+        <a href="mettre lien ICI" class="contact">Contacter l'assistance ENT Alpha</a>
+      </div>
+      </section>
+    </section>
+  </body>
+  <footer class="footer">
+    <section class="3p">
+      <h1 class="partenaires">Credits :</h1>
+    </section>
+    <button onclick="rediriger()" class="admaccess">ADM ACCESS</button>
+    <button onclick="rediriger()" class="eleveaccess">ELEVE ACCESS</button>
+    <button onclick="rediriger()" class="parentaccess">PARENT ACCESS</button>
+    <section class="copyright">
+      <p class="copyright-texte">© 2025 Roméo LEONARD. Tous droits réservés.</p>
+      <a href="https://github.com/Alpha604/Fake-ENT" target="_blank">
+        <img class="github" src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png">
+      </a>
+    </section>
+  </footer>
+</html>
